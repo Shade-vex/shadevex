@@ -1,0 +1,46 @@
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Shade-vex/shadevex/refs/heads/main/menu-for-you-hub.txt")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "X hub Master ",
+         Animation = "Shade-Vex"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "X hub Master",
+        Description = "đăng kí cho Shade-Vex ngay đi",
+        KeyLink = "https://discord.gg/DmN8sE7Y",
+        Keys = {"Premium_Key_29833z920j8"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Đang chạy script...",
+       Incorrectkey = "Key không tồn tại",
+       CopyKeyLink = "Đã sao chép link",
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=123776424679172",
+       Size = {50, 50},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Discord"})
+     local Tab2o = MakeTab({Name = "Farm"})
+     local Tab3o = MakeTab({Name = "Biển"})
+     local Tab4o = MakeTab({Name = "Đảo"})
+     local Tab5o = MakeTab({Name = "Vật phẩm"})
+     local Tab6o = MakeTab({Name = "Trái/đột kích"})
+     local Tab7o = MakeTab({Name = "Dịch chuyển"})
+     local Tab8o = MakeTab({Name = "Chỉ số"})
+     local Tab9o = MakeTab({Name = "Giao diện"})
+     local Tab10o = MakeTab({Name = "Cửa hàng"})
+     local Tab11o = MakeTab({Name = "Khác"})
+
+
